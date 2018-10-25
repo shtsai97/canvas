@@ -71,7 +71,7 @@
 
 	//Text
 	ctx.fillStyle = '#00F';
-	ctx.font = 'Italic 30px Calibri';
+	ctx.font = 'Bold 30px Calibri';
 
 	ctx.fillText('Brian', 75, 400);
 
@@ -91,6 +91,7 @@
             img.src = "images/" + x.files[0].name;
 			img.onload = function(){
 				ctx.drawImage(img, 25, 300,160,119);
+				ctx.font = 'Bold 30px Calibri';
 				ctx.fillText('Brian', 75, 400);
       		}
       	}
